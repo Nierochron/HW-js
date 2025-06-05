@@ -25,20 +25,12 @@ console.log('Парних чисел:', countItems(numbers, isEven));
 console.log('Чисел більше 10:', countItems(numbers, isLarge));
 console.log('Коротких слів:', countItems(words, isShort));
 
-const calculate = function(a, b, operation) {
-    return operation(a, b);
-};
+const calculate = (a, b, operation) => operation(a, b);
 
-const add = function(a, b) {
-    return a + b;
-};
-const subtract = function(a, b) {
-    return a - b;
-};
-const multiply = function(a, b) {
-    return a * b;
-};
-const divide = function(a, b) {
+const add = (a, b) => a + b;
+const subtract = (a, b) => a - b;
+const multiply = (a, b) => a * b;
+const divide = (a, b) => {
     if (b === 0) {
         return 'Помилка: ділення на нуль';
     }
