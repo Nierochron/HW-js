@@ -21,8 +21,8 @@ function countProps(obj) {
 }
 
 console.log(countProps({}))
-console.log(countProps({ name: "Mango", age: 2 }))
-console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }))
+console.log(countProps({ name: "Anna", age: 2 }))
+console.log(countProps({ mail: "anna@gmail.com", isOnline: true, score: 500 }))
 
 function findBestEmployee(employees) {
     let maxTasks = 0
@@ -38,10 +38,10 @@ function findBestEmployee(employees) {
 
 console.log(
     findBestEmployee({
-        ann: 29,
-        david: 35,
+        anna: 29,
+        alexa: 35,
         helen: 1,
-        lorence: 99,
+        igor: 99,
     })
 )
 
@@ -57,7 +57,7 @@ console.log(
     findBestEmployee({
         lux: 147,
         david: 21,
-        kiwi: 19,
+        andrew: 19,
         chelsy: 38,
     })
 )
@@ -72,7 +72,7 @@ function countTotalSalary(employees) {
 
 console.log(
     countTotalSalary({
-        mango: 100,
+        andrew: 100,
         poly: 150,
         alfred: 80,
     })
