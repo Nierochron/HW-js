@@ -1,36 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>DOM Завдання</title>
 </head>
 <body>
-    <div>
-    <p id="text">Значення текстового поля</p>
-    <button id="button">Кнопка</button>
-    </div>
-    
-    <div>
-    <h1 id="titel">Hello;</h1>
-    <img id="dogImg" src="https://images.unsplash.com/photo-1611003228941-98852ba62227?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D" alt="dog" width="800">
-    </div>
 
-    <div>
-    <a id="link" href="https://github.com">Посилання</a>
-    <img id="catImg" src="https://websitewithcatidk.com" alt="cat">
-    </div>
+  <ul id="categories">
+    <li class="item">
+      <h2>Тварини</h2>
+      <ul>
+        <li>Кіт</li>
+        <li>Хом'як</li>
+        <li>Кінь</li>
+        <li>Папуга</li>
+      </ul>
+    </li>
+    <li class="item">
+      <h2>Продукти</h2>
+      <ul>
+        <li>Хліб</li>
+        <li>Петрушка</li>
+        <li>Сир</li>
+      </ul>
+    </li>
+    <li class="item">
+      <h2>Технології</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node</li>
+      </ul>
+    </li>
+  </ul>
 
-    <div>
-        <ul>
-            <li class="list-item">Елемент списку</li>
-            <li class="list-item">Елемент списку</li>
-            <li class="list-item">Елемент списку</li>
-            <li class="list-item">Елемент списку</li>
-            <li class="list-item">Елемент списку</li>
-            <li class="list-item">Елемент списку</li>
-        </ul>
-    </div>
-    <script src="./js/script-hw17.js" type="module"></script>
+  <ul id="ingredients"></ul>
+
+  <ul id="gallery"></ul>
+
+  <div id="counter">
+    <button type="button" data-action="decrement">-1</button>
+    <span id="value">0</span>
+    <button type="button" data-action="increment">+1</button>
+  </div>
+
+  <script src="./js/sctipt-hw18.js"></script>
 </body>
 </html>
