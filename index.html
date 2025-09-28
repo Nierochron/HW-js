@@ -1,51 +1,40 @@
 <!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <title>DOM Завдання</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        class="lazy-load"
+        data-src="https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw="
+        alt="Image 1"
+      />
+      <img
+        class="lazy-load"
+        data-src="https://images.unsplash.com/photo-1715731456131-d4c3697a20f0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW4lMjBuYXR1cmV8ZW58MHx8MHx8fDA%3D"
+        alt="Image 2"
+      />
+      <img
+        class="lazy-load"
+        data-src="https://www.swr.de/swraktuell/rheinland-pfalz/koblenz/1722758258122%2Cnature-one-endet-mit-feuerwerk-100~_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da.jpg"
+        alt="Image 3"
+      />
+      <img
+        class="lazy-load"
+        data-src="https://e1.pxfuel.com/desktop-wallpaper/84/62/desktop-wallpaper-autumn-the-sky-leaves-colorful-japan-japan-mountain-landscape-autumn.jpg"
+        alt="Image 4"
+      />
+      <img
+        class="lazy-load"
+        data-src="https://nantesbuch.de/wp-content/uploads/2025/03/Image-28.png"
+        alt="Image 5"
+      />
+    </div>
 
-  <ul id="categories">
-    <li class="item">
-      <h2>Тварини</h2>
-      <ul>
-        <li>Кіт</li>
-        <li>Хом'як</li>
-        <li>Кінь</li>
-        <li>Папуга</li>
-      </ul>
-    </li>
-    <li class="item">
-      <h2>Продукти</h2>
-      <ul>
-        <li>Хліб</li>
-        <li>Петрушка</li>
-        <li>Сир</li>
-      </ul>
-    </li>
-    <li class="item">
-      <h2>Технології</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul id="ingredients"></ul>
-
-  <ul id="gallery"></ul>
-
-  <div id="counter">
-    <button type="button" data-action="decrement">-1</button>
-    <span id="value">0</span>
-    <button type="button" data-action="increment">+1</button>
-  </div>
-
-  <script src="./js/sctipt-hw18.js"></script>
-</body>
+    <script type="module" src="./js_Year2/script-hw3.js"></script>
+  </body>
 </html>
